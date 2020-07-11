@@ -1,0 +1,6 @@
+[submodule "McbeRank"]
+	path = McbeRank
+	url = https://github.com/McbeRank/McbeRank.git
+[submodule "McbeRank-Vue"]
+	path = McbeRank-Vue
+	url = https://github.com/McbeRank/McbeRank-Vue.git
