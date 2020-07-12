@@ -51,6 +51,9 @@ $ docker run -dit \
 ## 2. Running your McbeRank container
 > **NOTE:** If you are going to use whitelist ports using `-p <PORT>:<PORT>`, `McbeRank` cannot reach to database because `localhost` points container itself. So you should configure database host to machine's real ip address.
 ```bash
+$ cd ~
+$ mkdir -p mcberank/logs
+$ cd mcberank
 $ docker run -d \
     --name mcberank \
     --restart unless-stopped \
