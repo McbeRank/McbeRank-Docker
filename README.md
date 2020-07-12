@@ -57,6 +57,10 @@ $ docker run -d \
     --net host \
     -v $PWD/logs:/usr/src/app/logs \
     -e MCBERANK_SERVER_PORT=80 \
+    -e MCBERANK_MONGODB_USERNAME=admin \
+    -e MCBERANK_MONGODB_PASSWORD=YOUR_SECRET_PASSWORD \
+    -e MCBERANK_INFLUXDB_USERNAME=admin \
+    -e MCBERANK_INFLUXDB_PASSWORD=YOUR_SECRET_PASSWORD \
     mcberank/mcberank:latest
 ```
 
